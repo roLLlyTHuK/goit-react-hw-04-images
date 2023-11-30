@@ -1,4 +1,3 @@
-import React from 'react';
 
 export const ImageGalleryItem = ({ image, onClick }) => {
   const handleClick = () => {
@@ -7,7 +6,7 @@ export const ImageGalleryItem = ({ image, onClick }) => {
 
   return (
     <li className="ImageGalleryItem" onClick={handleClick}>
-      <img className="ImageGalleryItem-image" src={image.webformatURL} alt="" loading="lazy" />
+      <img className="ImageGalleryItem-image" src={image.webformatURL} alt="foto" loading="lazy" />
     </li>
   );
 };
